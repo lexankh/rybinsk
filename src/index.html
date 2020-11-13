@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>" />
+</head>
+<body>
+    <header>
+    <nav class="header-top">
+       <a class="header-top__link" href="">Доставка</a>
+       <a class="header-top__link" href="">Оплата</a>
+       <a class="header-top__link" href="">Условия возврата</a>
+       <a class="header-top__link" href="">Документы</a>
+       <a class="header-top__link" href="">Новости</a>
+       <a class="header-top__link" href="">Реквизиты</a>
+    </nav>
+
+    <div class="header-main">
+        
+        <img src="<%=require('./img/logo.png')%>" alt="логотип">
+        <div class="header-main__search">
+            <img class="header-main__search-img" src="<%=require('./img/search.png')%>">
+        <input class="header-main__search-field" placeholder="поиск по сайту">
+    </div>
+        <div class="header-main__info">
+            <a class="header-main__link" href="tel: +79011954166">+7 901 195 41 66</a>
+            <button class="header-main__button header-main__call-back">Обратный звонок</button>
+        </div>
+        <div class="header-main__info">
+            <a class="header-main__link" href="mailto: info@rybinskexpo.ru">info@rybinskexpo.ru</a>
+            <button class="header-main__button header-main__call-back">Личный кабинет</button>
+        </div>
+
+        </div>
+        
+    </div>
+    <nav class="header-menu">
+        <a class="header-menu__link">Главная</a>
+        <a class="header-menu__link">Каталог продукции</a>
+        <a class="header-menu__link">Наши услуги</a>
+        <a class="header-menu__link">О компании</a>
+        <a class="header-menu__link">Статьи</a>
+        <a class="header-menu__link">Контакты</a>
+        
+    </nav>
+</header>
+
+<div class="main">
+
+    <div class="content">
+
+<div class="main__greeting">
+
+    <h1 class="main__title">Промышленное освещение</h1>
+    <p class="main__text">От ведущего производителя светового оборудования </p>
+    <p class="main__text">С 2002 года мы создаем уникальные решения освещения самых различных сфер и областей производства</p>
+    <button class="main__button more-btn">Подробнее</button>
+    
+</div>
+</div>
+</div>
+
+<div class="products">
+    
+    <div class="product">
+        <img class="product__img" src="<%=require('./img/product.png')%>">
+        <p class="product__title">Осветительные системы</p>
+        <a href="" class="product__link">Перейти</a>
+    </div>
+    
+    <div class="product">
+        <img class="product__img" src="<%=require('./img/product.png')%>">
+        <p class="product__title">Осветительные системы</p>
+        <a href="" class="product__link">Перейти</a>
+    </div>
+
+    <div class="product">
+        <img class="product__img" src="<%=require('./img/product.png')%>">
+        <p class="product__title">Осветительные системы</p>
+        <a href="" class="product__link">Перейти</a>
+    </div>
+
+    <div class="product">
+        <img class="product__img" src="<%=require('./img/product.png')%>">
+        <p class="product__title">Осветительные системы</p>
+        <a href="" class="product__link">Перейти</a>
+    </div>
+
+    <div class="product">
+        <img class="product__img" src="<%=require('./img/product.png')%>">
+        <p class="product__title">Осветительные системы</p>
+        <a href="" class="product__link">Перейти</a>
+    </div>
+
+    <div class="product">
+        <img class="product__img" src="<%=require('./img/product.png')%>">
+        <p class="product__title">Осветительные системы</p>
+        <a href="" class="product__link">Перейти</a>
+    </div>
+
+    <div class="product">
+        <img class="product__img" src="<%=require('./img/product.png')%>">
+        <p class="product__title">Осветительные системы</p>
+        <a href="" class="product__link">Перейти</a>
+    </div>
+
+    <div class="product">
+        <img class="product__img" src="<%=require('./img/product.png')%>">
+        <p class="product__title">Осветительные системы</p>
+        <a href="" class="product__link">Перейти</a>
+    </div>
+</div>
+    <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+</body>
+</html>
